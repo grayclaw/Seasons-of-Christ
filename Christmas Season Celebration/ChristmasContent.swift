@@ -370,3 +370,35 @@ enum ChristmasContent {
         )
     ]
 }
+
+//Christmas Scriptures
+//1 Nephi 11:13–23
+//Isaiah 7:14
+//Isaiah 53:3–9
+//Joseph Smith — History 1:14–20
+//Helaman 16:1–23
+//Luke 1
+//2 Nephi 2:6–8
+//Matthew 1
+//Mosiah 3:5–8
+//Isaiah 9:6
+//Alma 7:10–13
+//Doctrine and Covenants 93:11–17
+//3 Nephi 11:10–11
+//John 1:1–5
+//Helaman 14:1–9
+//1 Nephi 10:4
+//Mosiah 15:1–9, 11
+//Matthew 2
+//2 Nephi 25:19, 26
+//John 3:16–17
+//Alma 5:14
+//Micah 5:2
+//3 Nephi 1:5–21
+//Matthew 5:14–16
+//Mosiah 2:17
+//John 20
+//Ether 3:6–16
+//Matthew 25:40
+//Luke 2
+//John 14:27

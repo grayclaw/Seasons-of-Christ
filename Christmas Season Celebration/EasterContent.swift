@@ -80,7 +80,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2016/10/joy-and-spiritual-survival")
             )
         ),
-
+        // 07
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 13:1–23",
@@ -92,7 +92,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-parable-of-the-sower")
             )
         ),
-
+        // 08
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Mark 5:25–34",
@@ -104,7 +104,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2000/04/miracles")
             )
         ),
-
+        // 09
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 6:35",
@@ -116,7 +116,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2018/10/the-living-bread-which-came-down-from-heaven")
             )
         ),
-
+        // 10
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 10:11",
@@ -128,7 +128,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2017/04/the-good-shepherd")
             )
         ),
-
+        // 11
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 8:12",
@@ -140,7 +140,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-light-that-shines-in-darkness")
             )
         ),
-
+        // 12
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 14:14",
@@ -152,7 +152,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2019/04/charity")
             )
         ),
-
+        // 13
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 12:12–15",
@@ -164,7 +164,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2011/04/his-sacred-name-an-honored-life")
             )
         ),
-
+        // 14
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 22:19–20",
@@ -176,7 +176,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2018/10/sacrament")
             )
         ),
-
+        // 15
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 22:39–44",
@@ -188,7 +188,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2009/10/none-were-with-him")
             )
         ),
-
+        // 16
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 26:47–50",
@@ -200,7 +200,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2006/04/the-atonement")
             )
         ),
-
+        // 17
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Mark 15:1–15",
@@ -212,7 +212,7 @@ enum EasterContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2019/04/the-redeemer")
             )
         ),
-
+        // 18
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 23:33–46",
@@ -370,3 +370,34 @@ enum EasterContent {
         )
     ]
 }
+//
+//Easter Scriptures
+//Matthew 27:50–54
+//Luke 23:46
+//John 19:30
+//John 19:38–42
+//Matthew 28:1–10
+//Luke 24:1–12
+//John 20:1–18
+//John 20:19–29
+//Acts 1:9–11
+//Mosiah 3:7–10
+//Alma 7:10–13
+//Helaman 14:15–17
+//3 Nephi 8:5–25
+//3 Nephi 9:13–22
+//3 Nephi 11:1–17
+//3 Nephi 11:18–28
+//3 Nephi 15:1–9
+//3 Nephi 17:1–10
+//3 Nephi 18:1–10
+//3 Nephi 26:1–6
+//Doctrine and Covenants 19:16–1
+//Doctrine and Covenants 76:22–24
+//Doctrine and Covenants 110:2–10
+//Doctrine and Covenants 138:11–24
+//Moses 7:55–56
+//Moses 1:6–7
+//Abraham 3:27–28
+//Joseph Smith—History 1:16–20
+//Isaiah 53:3–9
