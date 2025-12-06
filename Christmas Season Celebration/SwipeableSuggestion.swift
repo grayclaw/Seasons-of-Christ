@@ -28,6 +28,9 @@ struct SwipeableTextView: View {
                     .foregroundColor(.gray)
                     .padding()
             } else {
+                Text("Daily Suggetion")
+                    .font(.headline)
+                    .padding(.top, 16)
                 // Swipeable carousel card
                 ZStack {
                     RoundedRectangle(cornerRadius: 12)
@@ -47,12 +50,14 @@ struct SwipeableTextView: View {
                         
                         // Content
                         VStack(spacing: 12) {
-                            Text(suggestions[currentIndex].title)
-                                .font(.title3)
-                                .multilineTextAlignment(.center)
-                                .padding(.vertical, 20)
-                                .strikethrough(isCurrentCompleted, color: .red)
-                                .foregroundColor(isCurrentCompleted ? .gray : .primary)
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text(suggestions[currentIndex].title)
+                                    .font(.title3)
+                                    .multilineTextAlignment(.center)
+                                    .padding(.vertical, 20)
+                                    .strikethrough(isCurrentCompleted, color: .red)
+                                    .foregroundColor(isCurrentCompleted ? .gray : .primary)
+                            }
                             
                             // Show completion date if completed
                             if let completedDate = currentCompletionDate {

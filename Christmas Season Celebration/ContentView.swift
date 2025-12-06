@@ -12,8 +12,8 @@ struct ContentView: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var currentDailyContent: DailyContent?
     @State private var currentDay: Int?
-    @State private var maxDay: Int? // Maximum day reached so far
-    @State private var viewingDay: Int? // Day currently being viewed
+    @State private var maxDay: Int?
+    @State private var viewingDay: Int?
     @State private var holidayDate: Date?
     @State private var saviorName: String = ""
     @State private var currentImage: ImageResource = .nativity1
@@ -53,7 +53,6 @@ struct ContentView: View {
                                                 .font(.title2)
                                                 .fontWeight(.semibold)
                                             
-                                            // Fixed height container for the button
                                             Group {
                                                 if isViewingHistory {
                                                     Button(action: returnToToday) {
@@ -62,11 +61,11 @@ struct ContentView: View {
                                                             .foregroundColor(.blue)
                                                     }
                                                 } else {
-                                                    Text("Return to Today") // Invisible spacer
+                                                    Text("Return to Today")
                                                         .font(.caption)
                                                 }
                                             }
-                                            .frame(height: 16) // Fixed height to prevent shifting
+                                            .frame(height: 16)
                                         }
                                         
                                         Button(action: goToNextDay) {
@@ -98,7 +97,6 @@ struct ContentView: View {
                                     .font(.subheadline)
                                     .foregroundColor(.secondary)
 
-                                // Scripture Card
                                 ScriptureCard(
                                     title: "Scripture",
                                     description: daily.scripture.reference,
