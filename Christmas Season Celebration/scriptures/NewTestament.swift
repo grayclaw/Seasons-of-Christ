@@ -4,8 +4,8 @@
 //
 //  Created by Brian Homer Jr on 11/25/25.
 //
-
-let matt_1 = """
+struct NewTestamentTexts {
+    static let matt_1 = """
 1 The book of the generation of Jesus Christ, the son of David, the son of Abraham.
 
 2 Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;
@@ -57,7 +57,7 @@ let matt_1 = """
 25 And knew her not till she had brought forth her firstborn son: and he called his name Jesus.
 """
 
-let matt_2 = """
+    static let matt_2 = """
 1 Now when Jesus was born in Bethlehem of Judæa in the days of Herod the king, behold, there came wise men from the east to Jerusalem,
 
 2 Saying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him.
@@ -105,7 +105,7 @@ let matt_2 = """
 23 And he came and dwelt in a city called Nazareth: that it might be fulfilled which was spoken by the prophets, He shall be called a Nazarene.
 """
 
-let matt_5_14_16 = """
+    static let matt_5_14_16 = """
 14 Ye are the light of the world. A city that is set on an hill cannot be hid.
 
 15 Neither do men light a candle, and put it under a bushel, but on a candlestick; and it giveth light unto all that are in the house.
@@ -113,7 +113,7 @@ let matt_5_14_16 = """
 16 Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.
 """
 
-let matt_13_1_23 = """
+    static let matt_13_1_23 = """
 1 The same day went Jesus out of the house, and sat by the sea side.
 
 2 And great multitudes were gathered together unto him, so that he went into a ship, and sat; and the whole multitude stood on the shore.
@@ -161,15 +161,15 @@ let matt_13_1_23 = """
 23 But he that received seed into the good ground is he that heareth the word, and understandeth it; which also beareth fruit, and bringeth forth, some an hundredfold, some sixty, some thirty.
 """
 
-let matt_14_14 = """
+    static let matt_14_14 = """
 14 And Jesus went forth, and saw a great multitude, and was moved with compassion toward them, and he healed their sick.
 """
 
-let matt_25_40 = """
+    static let matt_25_40 = """
 40 And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.
 """
 
-let matt_26_47_50 = """
+    static let matt_26_47_50 = """
 47 And while he yet spake, lo, Judas, one of the twelve, came, and with him a great multitude with swords and staves, from the chief priests and elders of the people.
 
 48 Now he that betrayed him gave them a sign, saying, Whomsoever I shall kiss, that same is he: hold him fast.
@@ -179,7 +179,7 @@ let matt_26_47_50 = """
 50 And Jesus said unto him, Friend, wherefore art thou come? Then came they, and laid hands on Jesus, and took him.
 """
 
-let matt_27_50_54 = """
+    static let matt_27_50_54 = """
 50 Jesus, when he had cried again with a loud voice, yielded up the ghost.
 
 51 And, behold, the veil of the temple was rent in twain from the top to the bottom; and the earth did quake, and the rocks rent;
@@ -191,7 +191,7 @@ let matt_27_50_54 = """
 54 Now when the centurion, and they that were with him, watching Jesus, saw the earthquake, and those things that were done, they feared greatly, saying, Truly this was the Son of God.
 """
 
-let matt_28_1_4 = """
+    static let matt_28_1_4 = """
 1 In the end of the sabbath, as it began to dawn toward the first day of the week, came Mary Magdalene and the other Mary to see the sepulchre.
 
 2 And, behold, there was a great earthquake: for the angel of the Lord descended from heaven, and came and rolled back the stone from the door, and sat upon it.
@@ -201,13 +201,13 @@ let matt_28_1_4 = """
 4 And for fear of him the keepers did shake, and became as dead men.
 """
 
-let matt_28_19_20 = """
+    static let matt_28_19_20 = """
 19 Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:
 
 20 Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.
 """
 
-let mark_5_25_34 = """
+    static let mark_5_25_34 = """
 25 And a certain woman, which had an issue of blood twelve years,
 
 26 And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse,
@@ -229,7 +229,7 @@ let mark_5_25_34 = """
 34 And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.
 """
 
-let mark_15_1_15 = """
+    static let mark_15_1_15 = """
 1 And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate.
 
 2 And Pilate asked him, Art thou the King of the Jews? And he answering said unto him, Thou sayest it.
@@ -261,7 +261,7 @@ let mark_15_1_15 = """
 15 And so Pilate, willing to content the people, released Barabbas unto them, and delivered Jesus, when he had scourged him, to be crucified.
 """
 
-let luke_1 = """
+    static let luke_1 = """
 1 Forasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us,
 
 2 Even as they delivered them unto us, which from the beginning were eyewitnesses, and ministers of the word;
@@ -423,7 +423,7 @@ let luke_1 = """
 80 And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.
 """
 
-let luke_2 = """
+    static let luke_2 = """
 1 And it came to pass in those days, that there went out a decree from Cæsar Augustus, that all the world should be taxed.
 
 2 (And this taxing was first made when Cyrenius was governor of Syria.)
@@ -529,13 +529,13 @@ let luke_2 = """
 52 And Jesus increased in wisdom and stature, and in favour with God and man.
 """
 
-let luke_22_19_20 = """
+    static let luke_22_19_20 = """
 19 And he took bread, and gave thanks, and brake it, and gave unto them, saying, This is my body which is given for you: this do in remembrance of me.
 
 20 Likewise also the cup after supper, saying, This cup is the new testament in my blood, which is shed for you.
 """
 
-let luke_22_39_44 = """
+    static let luke_22_39_44 = """
 39 And he came out, and went, as he was wont, to the mount of Olives; and his disciples also followed him.
 
 40 And when he was at the place, he said unto them, Pray that ye enter not into temptation.
@@ -549,7 +549,7 @@ let luke_22_39_44 = """
 44 And being in an agony he prayed more earnestly: and his sweat was as it were great drops of blood falling down to the ground.
 """
 
-let luke_23_33_46 = """
+    static let luke_23_33_46 = """
 33 And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, one on the right hand, and the other on the left.
 
 34 Then said Jesus, Father, forgive them; for they know not what they do. And they parted his raiment, and cast lots.
@@ -579,7 +579,7 @@ let luke_23_33_46 = """
 46 And when Jesus had cried with a loud voice, he said, Father, into thy hands I commend my spirit: and having said thus, he gave up the ghost.
 """
 
-let luke_24_1_12 = """
+    static let luke_24_1_12 = """
 1 Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them.
 
 2 And they found the stone rolled away from the sepulchre.
@@ -605,7 +605,7 @@ let luke_24_1_12 = """
 12 Then arose Peter, and ran unto the sepulchre; and stooping down, he beheld the linen clothes laid by themselves, and departed, wondering in himself at that which was come to pass.
 """
 
-let luke_24_13_32 = """
+    static let luke_24_13_32 = """
 13 And, behold, two of them went that same day to a village called Emmaus, which was from Jerusalem about threescore furlongs.
 
 14 And they talked together of all these things which had happened.
@@ -647,7 +647,7 @@ let luke_24_13_32 = """
 32 And they said one to another, Did not our heart burn within us, while he talked with us by the way, and while he opened to us the scriptures?
 """
 
-let john_1_1_5 = """
+    static let john_1_1_5 = """
 1 In the beginning was the Word, and the Word was with God, and the Word was God.
 
 2 The same was in the beginning with God.
@@ -659,25 +659,25 @@ let john_1_1_5 = """
 5 And the light shineth in darkness; and the darkness comprehended it not.
 """
 
-let john_3_16_17 = """
+    static let john_3_16_17 = """
 16 For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
 
 17 For God sent not his Son into the world to condemn the world; but that the world through him might be saved.
 """
 
-let john_6_35 = """
+    static let john_6_35 = """
 35 And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.
 """
 
-let john_8_12 = """
+    static let john_8_12 = """
 12 Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.
 """
 
-let john_10_11 = """
+    static let john_10_11 = """
 11 I am the good shepherd: the good shepherd giveth his life for the sheep.
 """
 
-let john_12_12_15 = """
+    static let john_12_12_15 = """
 12 On the next day much people that were come to the feast, when they heard that Jesus was coming to Jerusalem,
 
 13 Took branches of palm trees, and went forth to meet him, and cried, Hosanna: Blessed is the King of Israel that cometh in the name of the Lord.
@@ -687,19 +687,19 @@ let john_12_12_15 = """
 15 Fear not, daughter of Sion: behold, thy King cometh, sitting on an ass’s colt.
 """
 
-let john_14_27 = """
+    static let john_14_27 = """
 27 Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.
 """
 
-let john_19_30 = """
+    static let john_19_30 = """
 (John 19:30 scripture text)
 """
 
-let john_19_38_42 = """
+    static let john_19_38_42 = """
 (John 19:38–42 scripture text)
 """
 
-let john_20_1_18 = """
+    static let john_20_1_18 = """
 1 The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
 
 2 Then she runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved, and saith unto them, They have taken away the Lord out of the sepulchre, and we know not where they have laid him.
@@ -737,7 +737,7 @@ let john_20_1_18 = """
 18 Mary Magdalene came and told the disciples that she had seen the Lord, and that he had spoken these things unto her.
 """
 
-let john_20_11_16 = """
+    static let john_20_11_16 = """
 11 ¶ But Mary stood without at the sepulchre weeping: and as she wept, she stooped down, and looked into the sepulchre,
 
 12 And seeth two angels in white sitting, the one at the head, and the other at the feet, where the body of Jesus had lain.
@@ -751,7 +751,7 @@ let john_20_11_16 = """
 16 Jesus saith unto her, Mary. She turned herself, and saith unto him, Rabboni; which is to say, Master.
 """
 
-let john_20_19_29 = """
+    static let john_20_19_29 = """
 19 Then the same day at evening, being the first day of the week, when the doors were shut where the disciples were assembled for fear of the Jews, came Jesus and stood in the midst, and saith unto them, Peace be unto you.
 
 20 And when he had so said, he shewed unto them his hands and his side. Then were the disciples glad, when they saw the Lord.
@@ -775,7 +775,7 @@ let john_20_19_29 = """
 29 Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed.
 """
 
-let john_20 = """
+    static let john_20 = """
 1 The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
 
 2 Then she runneth, and cometh to Simon Peter, and to the other disciple, whom Jesus loved, and saith unto them, They have taken away the Lord out of the sepulchre, and we know not where they have laid him.
@@ -839,7 +839,7 @@ let john_20 = """
 31 But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.
 """
 
-let john_21_15_17 = """
+    static let john_21_15_17 = """
 15 So when they had dined, Jesus saith to Simon Peter, Simon, son of Jonas, lovest thou me more than these? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my lambs.
 
 16 He saith to him again the second time, Simon, son of Jonas, lovest thou me? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my sheep.
@@ -847,7 +847,7 @@ let john_21_15_17 = """
 17 He saith unto him the third time, Simon, son of Jonas, lovest thou me? Peter was grieved because he said unto him the third time, Lovest thou me? And he said unto him, Lord, thou knowest all things; thou knowest that I love thee. Jesus saith unto him, Feed my sheep.
 """
 
-let acts_1_9_11 = """
+    static let acts_1_9_11 = """
 9 And when he had spoken these things, while they beheld, he was taken up; and a cloud received him out of their sight.
 
 10 And while they looked steadfastly toward heaven as he went up, behold, two men stood by them in white apparel;
@@ -855,11 +855,11 @@ let acts_1_9_11 = """
 11 Which also said, Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven.
 """
 
-let acts_10_38 = """
+    static let acts_10_38 = """
 38 How God anointed Jesus of Nazareth with the Holy Ghost and with power: who went about doing good, and healing all that were oppressed of the devil; for God was with him.
 """
 
-let firstPeter_3_18_20 = """
+    static let firstPeter_3_18_20 = """
 18 For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit:
 
 19 By which also he went and preached unto the spirits in prison;
@@ -867,6 +867,7 @@ let firstPeter_3_18_20 = """
 20 Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water.
 """
 
-let firstPeter_4_6 = """
+    static let firstPeter_4_6 = """
 6 For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.
 """
+}

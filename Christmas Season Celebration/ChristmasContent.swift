@@ -12,7 +12,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Genesis 49:10",
-                textVariable: genesis_49_10,
+                textVariable: OldTestamentTexts.genesis_49_10,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng&id=p10#p10")
             ),
             talk: TalkReference(
@@ -24,7 +24,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Numbers 24:17",
-                textVariable: numbers_24_17,
+                textVariable: OldTestamentTexts.numbers_24_17,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/num/24?lang=eng&id=p17#p17")
             ),
             talk: TalkReference(
@@ -36,7 +36,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Psalm 22:9–10",
-                textVariable: psalms_22_9_10,
+                textVariable: OldTestamentTexts.psalms_22_9_10,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng&id=p9-p10#p9")
              ),
             talk: TalkReference(
@@ -48,7 +48,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Deuteronomy 18:15",
-                textVariable: deuteronomy_18_15,
+                textVariable: OldTestamentTexts.deuteronomy_18_15,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/18?lang=eng&id=p15#p15")
             ),
             talk: TalkReference(
@@ -60,7 +60,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Isaiah 11:1–2",
-                textVariable: isaiah_11_1_2,
+                textVariable: OldTestamentTexts.isaiah_11_1_2,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng&id=p1-p2#p1")
             ),
             talk: TalkReference(
@@ -72,7 +72,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Helaman 16:1–23",
-                textVariable: helaman_16_1_23,
+                textVariable: BookOfMormonTexts.helaman_16_1_23,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/16?lang=eng&id=p1-p23#p1")
             ),
             talk: TalkReference(
@@ -84,7 +84,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Mosiah 15:1–9, 11",
-                textVariable: mosiah_15_1_9_11,
+                textVariable: BookOfMormonTexts.mosiah_15_1_9_11,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/15?lang=eng&id=p1-p9,p11#p1")
             ),
             talk: TalkReference(
@@ -96,7 +96,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Alma 5:14",
-                textVariable: alma_5_14,
+                textVariable: BookOfMormonTexts.alma_5_14,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=eng&id=p14#p14")
             ),
             talk: TalkReference(
@@ -108,7 +108,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 14:27",
-                textVariable: john_14_27,
+                textVariable: NewTestamentTexts.john_14_27,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/14?lang=eng&id=p27#p27")
             ),
             talk: TalkReference(
@@ -120,7 +120,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 25:40",
-                textVariable: matt_25_40,
+                textVariable: NewTestamentTexts.matt_25_40,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/25?lang=eng&id=p40#p40")
             ),
             talk: TalkReference(
@@ -132,19 +132,19 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 5:14–16",
-                textVariable: matt_5_14_16,
+                textVariable: NewTestamentTexts.matt_5_14_16,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng&id=p14-p16#p14")
             ),
             talk: TalkReference(
-                title: "Mary’s Song — Bible Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-12-0103-marys-song")
+                title: "Mary’s Lullaby — Children's Music Video",
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/17717_017?lang=eng")
             ),
         ),
         // 12
         DailyContent(
             scripture: ScriptureReference(
                 reference: "2 Nephi 2:6–8",
-                textVariable: secondNephi_2_6_8,
+                textVariable: BookOfMormonTexts.secondNephi_2_6_8,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p6-p8#p6")
             ),
             talk: TalkReference(
@@ -156,7 +156,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Mosiah 3:5–8",
-                textVariable: mosiah_3_5_8,
+                textVariable: BookOfMormonTexts.mosiah_3_5_8,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/3")
             ),
             talk: TalkReference(
@@ -168,7 +168,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Helaman 14:1–9",
-                textVariable: helaman_14_1_9,
+                textVariable: BookOfMormonTexts.helaman_14_1_9,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/14")
             ),
             talk: TalkReference(
@@ -180,7 +180,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Ether 3:6–16",
-                textVariable: ether_3_6_16,
+                textVariable: BookOfMormonTexts.ether_3_6_16,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/3")
             ),
             talk: TalkReference(
@@ -192,7 +192,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "1 Nephi 10:4",
-                textVariable: firstNephi_10_4,
+                textVariable: BookOfMormonTexts.firstNephi_10_4,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/10?lang=eng&id=p4#p4")
             ),
             talk: TalkReference(
@@ -204,7 +204,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "2 Nephi 25:19",
-                textVariable: secondNephi_25_19_26,
+                textVariable: BookOfMormonTexts.secondNephi_25_19_26,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25?lang=eng&id=p19,p26#p19")
             ),
             talk: TalkReference(
@@ -216,7 +216,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Doctrine & Covenants 93:11–17",
-                textVariable: dC_93_11_17,
+                textVariable: DoctrineCovenantsTexts.dC_93_11_17,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/93?lang=eng&id=p11-p17#p11")
             ),
             talk: TalkReference(
@@ -228,7 +228,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Joseph Smith—History 1:14–20",
-                textVariable: js_h_1_14_20,
+                textVariable: PearlOfGreatPriceTexts.js_h_1_14_20,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng&id=p14-p20#p14")
             ),
             talk: TalkReference(
@@ -240,7 +240,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "1 Nephi 11:13–23",
-                textVariable: firstNephi_11_13_23,
+                textVariable: BookOfMormonTexts.firstNephi_11_13_23,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/11?lang=eng&id=p13-p23#p13")
             ),
             talk: TalkReference(
@@ -252,7 +252,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Micah 5:2",
-                textVariable: micah_5_2,
+                textVariable: OldTestamentTexts.micah_5_2,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/micah/5?lang=eng&id=p2#p2")
             ),
             talk: TalkReference(
@@ -264,7 +264,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 1:1–5",
-                textVariable: john_1_1_5,
+                textVariable: NewTestamentTexts.john_1_1_5,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng&id=p1-p5#p1")
             ),
             talk: TalkReference(
@@ -276,7 +276,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Alma 7:10–13",
-                textVariable: alma_7_10_13,
+                textVariable: BookOfMormonTexts.alma_7_10_13,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p10-p13#p10")
             ),
             talk: TalkReference(
@@ -288,7 +288,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "3 Nephi 1:5–21",
-                textVariable: thirdNephi_1_5_21,
+                textVariable: BookOfMormonTexts.thirdNephi_1_5_21,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/1?lang=eng&id=p5-p21#p5")
             ),
             talk: TalkReference(
@@ -300,7 +300,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 1",
-                textVariable: luke_1,
+                textVariable: NewTestamentTexts.luke_1,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng&id=p1")
             ),
             talk: TalkReference(
@@ -312,7 +312,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 1",
-                textVariable: matt_1,
+                textVariable: NewTestamentTexts.matt_1,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng&id=p1")
             ),
             talk: TalkReference(
@@ -324,7 +324,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 2",
-                textVariable: matt_2,
+                textVariable: NewTestamentTexts.matt_2,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng&id=p1")
             ),
             talk: TalkReference(
@@ -336,7 +336,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 2",
-                textVariable: luke_2,
+                textVariable: NewTestamentTexts.luke_2,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng&id=p1")
             ),
             talk: TalkReference(
@@ -348,7 +348,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 3:16–17",
-                textVariable: john_3_16_17,
+                textVariable: NewTestamentTexts.john_3_16_17,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng&id=p16-p17#p16")
             ),
             talk: TalkReference(
@@ -360,7 +360,7 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Isaiah 9:6",
-                textVariable: isaiah_9_6,
+                textVariable: OldTestamentTexts.isaiah_9_6,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/9?lang=eng&id=p6#p6")
             ),
             talk: TalkReference(

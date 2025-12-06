@@ -5,11 +5,12 @@
 //  Created by Brian Homer Jr on 11/25/25.
 //
 
-let firstNephi_10_4 = """
+struct BookOfMormonTexts {
+    static let firstNephi_10_4 = """
 4 Yea, even six hundred years from the time that my father left Jerusalem, a prophet would the Lord God raise up among the Jews—even a Messiah, or, in other words, a Savior of the world.
 """
-
-let firstNephi_11_13_23 = """
+    
+    static let firstNephi_11_13_23 = """
 13 And it came to pass that I looked and beheld the great city of Jerusalem, and also other cities. And I beheld the city of Nazareth; and in the city of Nazareth I beheld a virgin, and she was exceedingly fair and white.
 
 14 And it came to pass that I saw the heavens open; and an angel came down and stood before me; and he said unto me: Nephi, what beholdest thou?
@@ -32,31 +33,31 @@ let firstNephi_11_13_23 = """
 
 23 And he spake unto me, saying: Yea, and the most joyous to the soul.
 """
-
-let secondNephi_2_6_8 = """
+    
+    static let secondNephi_2_6_8 = """
 6 Wherefore, redemption cometh in and through the Holy Messiah; for he is full of grace and truth.
 
 7 Behold, he offereth himself a sacrifice for sin, to answer the ends of the law, unto all those who have a broken heart and a contrite spirit; and unto none else can the ends of the law be answered.
 
 8 Wherefore, how great the importance to make these things known unto the inhabitants of the earth, that they may know that there is no flesh that can dwell in the presence of God, save it be through the merits, and mercy, and grace of the Holy Messiah, who layeth down his life according to the flesh, and taketh it again by the power of the Spirit, that he may bring to pass the resurrection of the dead, being the first that should rise.
 """
-
-let secondNephi_2_27 = """
+    
+    static let secondNephi_2_27 = """
 27 Wherefore, men are free according to the flesh; and all things are given them which are expedient unto man. And they are free to choose liberty and eternal life, through the great Mediator of all men, or to choose captivity and death, according to the captivity and power of the devil; for he seeketh that all men might be miserable like unto himself.
 """
-
-let secondNephi_25_19_26 = """
+    
+    static let secondNephi_25_19_26 = """
 19 For according to the words of the prophets, the Messiah cometh in six hundred years from the time that my father left Jerusalem; and according to the words of the prophets, and also the word of the angel of God, his name shall be Jesus Christ, the Son of God.
 
 
 26 And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins.
 """
-
-let mosiah_2_17 = """
+    
+    static let mosiah_2_17 = """
 17 And behold, I tell you these things that ye may learn wisdom; that ye may learn that when ye are in the service of your fellow beings ye are only in the service of your God.
 """
-
-let mosiah_3_5_8 = """
+    
+    static let mosiah_3_5_8 = """
 5 For behold, the time cometh, and is not far distant, that with power, the Lord Omnipotent who reigneth, who was, and is from all eternity to all eternity, shall come down from heaven among the children of men, and shall dwell in a tabernacle of clay, and shall go forth amongst men, working mighty miracles, such as healing the sick, raising the dead, causing the lame to walk, the blind to receive their sight, and the deaf to hear, and curing all manner of diseases.
 
 6 And he shall cast out devils, or the evil spirits which dwell in the hearts of the children of men.
@@ -65,8 +66,8 @@ let mosiah_3_5_8 = """
 
 8 And he shall be called Jesus Christ, the Son of God, the Father of heaven and earth, the Creator of all things from the beginning; and his mother shall be called Mary.
 """
-
-let mosiah_3_7_10 = """
+    
+    static let mosiah_3_7_10 = """
 7 And lo, he shall suffer temptations, and pain of body, hunger, thirst, and fatigue, even more than man can suffer, except it be unto death; for behold, blood cometh from every pore, so great shall be his anguish for the wickedness and the abominations of his people.
 
 8 And he shall be called Jesus Christ, the Son of God, the Father of heaven and earth, the Creator of all things from the beginning; and his mother shall be called Mary.
@@ -75,8 +76,8 @@ let mosiah_3_7_10 = """
 
 10 And he shall rise the third day from the dead; and behold, he standeth to judge the world; and behold, all these things are done that a righteous judgment might come upon the children of men.
 """
-
-let mosiah_15_1_9_11 = """
+    
+    static let mosiah_15_1_9_11 = """
 1 And now Abinadi said unto them: I would that ye should understand that God himself shall come down among the children of men, and shall redeem his people.
 
 2 And because he dwelleth in flesh he shall be called the Son of God, and having subjected the flesh to the will of the Father, being the Father and the Son—
@@ -97,12 +98,12 @@ let mosiah_15_1_9_11 = """
 
 11 Behold I say unto you, that whosoever has heard the words of the prophets, yea, all the holy prophets who have prophesied concerning the coming of the Lord—I say unto you, that all those who have hearkened unto their words, and believed that the Lord would redeem his people, and have looked forward to that day for a remission of their sins, I say unto you, that these are his seed, or they are the heirs of the kingdom of God.
 """
-
-let alma_5_14 = """
+    
+    static let alma_5_14 = """
 14 And now behold, I ask of you, my brethren of the church, have ye spiritually been born of God? Have ye received his image in your countenances? Have ye experienced this mighty change in your hearts?
 """
-
-let alma_7_10_13 = """
+    
+    static let alma_7_10_13 = """
 10 And behold, he shall be born of Mary, at Jerusalem which is the land of our forefathers, she being a virgin, a precious and chosen vessel, who shall be overshadowed and conceive by the power of the Holy Ghost, and bring forth a son, yea, even the Son of God.
 
 11 And he shall go forth, suffering pains and afflictions and temptations of every kind; and this that the word might be fulfilled which saith he will take upon him the pains and the sicknesses of his people.
@@ -111,14 +112,14 @@ let alma_7_10_13 = """
 
 13 Now the Spirit knoweth all things; nevertheless the Son of God suffereth according to the flesh that he might take upon him the sins of his people, that he might blot out their transgressions according to the power of his deliverance; and now behold, this is the testimony which is in me.
 """
-
-let alma_34_9_10 = """
+    
+    static let alma_34_9_10 = """
 9 For it is expedient that an atonement should be made; for according to the great plan of the Eternal God there must be an atonement made, or else all mankind must unavoidably perish; yea, all are hardened; yea, all are fallen and are lost, and must perish except it be through the atonement which it is expedient should be made.
 
 10 For it is expedient that there should be a great and last sacrifice; yea, not a sacrifice of man, neither of beast, neither of any manner of fowl; for it shall not be a human sacrifice; but it must be an infinite and eternal sacrifice.
 """
-
-let alma_36_17_21 = """
+    
+    static let alma_36_17_21 = """
 17 And it came to pass that as I was thus racked with torment, while I was harrowed up by the memory of my many sins, behold, I remembered also to have heard my father prophesy unto the people concerning the coming of one Jesus Christ, a Son of God, to atone for the sins of the world.
 
 18 Now, as my mind caught hold upon this thought, I cried within my heart: O Jesus, thou Son of God, have mercy on me, who am in the gall of bitterness, and am encircled about by the everlasting chains of death.
@@ -129,12 +130,12 @@ let alma_36_17_21 = """
 
 21 Yea, I say unto you, my son, that there could be nothing so exquisite and so bitter as were my pains. Yea, and again I say unto you, my son, that on the other hand, there can be nothing so exquisite and sweet as was my joy.
 """
-
-let alma_40_23 = """
+    
+    static let alma_40_23 = """
 23 The soul shall be restored to the body, and the body to the soul; yea, and every limb and joint shall be restored to its body; yea, even a hair of the head shall not be lost; but all things shall be restored to their proper and perfect frame.
 """
-
-let helaman_14_1_9 = """
+    
+    static let helaman_14_1_9 = """
 1 And now it came to pass that Samuel, the Lamanite, did prophesy a great many more things which cannot be written.
 
 2 And behold, he said unto them: Behold, I give unto you a sign; for five years more cometh, and behold, then cometh the Son of God to redeem all those who shall believe on his name.
@@ -153,16 +154,16 @@ let helaman_14_1_9 = """
 
 9 And behold, thus hath the Lord commanded me, by his angel, that I should come and tell this thing unto you; yea, he hath commanded that I should prophesy these things unto you; yea, he hath said unto me: Cry unto this people, repent and prepare the way of the Lord.
 """
-
-let helaman_14_15_17 = """
+    
+    static let helaman_14_15_17 = """
 15 For behold, he surely must die that salvation may come; yea, it behooveth him and becometh expedient that he dieth, to bring to pass the resurrection of the dead, that thereby men may be brought into the presence of the Lord.
 
 16 Yea, behold, this death bringeth to pass the resurrection, and redeemeth all mankind from the first death—that spiritual death; for all mankind, by the fall of Adam being cut off from the presence of the Lord, are considered as dead, both as to things temporal and to things spiritual.
 
 17 But behold, the resurrection of Christ redeemeth mankind, yea, even all mankind, and bringeth them back into the presence of the Lord.
 """
-
-let helaman_16_1_23 = """
+    
+    static let helaman_16_1_23 = """
 1 And now, it came to pass that there were many who heard the words of Samuel, the Lamanite, which he spake upon the walls of the city. And as many as believed on his word went forth and sought for Nephi; and when they had come forth and found him they confessed unto him their sins and denied not, desiring that they might be baptized unto the Lord.
 
 2 But as many as there were who did not believe in the words of Samuel were angry with him; and they cast stones at him upon the wall, and also many shot arrows at him as he stood upon the wall; but the Spirit of the Lord was with him, insomuch that they could not hit him with their stones neither with their arrows.
@@ -209,8 +210,8 @@ let helaman_16_1_23 = """
 
 23 And notwithstanding the signs and the wonders which were wrought among the people of the Lord, and the many miracles which they did, Satan did get great hold upon the hearts of the people upon all the face of the land.
 """
-
-let thirdNephi_1_5_21 = """
+    
+    static let thirdNephi_1_5_21 = """
 5 But there were some who began to say that the time was past for the words to be fulfilled, which were spoken by Samuel, the Lamanite.
 
 6 And they began to rejoice over their brethren, saying: Behold the time is past, and the words of Samuel are not fulfilled; therefore, your joy and your faith concerning this thing hath been vain.
@@ -245,8 +246,8 @@ let thirdNephi_1_5_21 = """
 
 21 And it came to pass also that a new star did appear, according to the word.
 """
-
-let thirdNephi_8_5_25 = """
+    
+    static let thirdNephi_8_5_25 = """
 5 And it came to pass in the thirty and fourth year, in the first month, on the fourth day of the month, there arose a great storm, such an one as never had been known in all the land.
 
 6 And there was also a great and terrible tempest; and there was terrible thunder, insomuch that it did shake the whole earth as if it was about to divide asunder.
@@ -289,8 +290,8 @@ let thirdNephi_8_5_25 = """
 
 25 And in another place they were heard to cry and mourn, saying: O that we had repented before this great and terrible day, and had not killed and stoned the prophets, and cast them out; then would our mothers and our fair daughters, and our children have been spared, and not have been buried up in that great city Moronihah. And thus were the howlings of the people great and terrible.
 """
-
-let thirdNephi_9_13_22 = """
+    
+    static let thirdNephi_9_13_22 = """
 13 O all ye that are spared because ye were more righteous than they, will ye not now return unto me, and repent of your sins, and be converted, that I may heal you?
 
 14 Yea, verily I say unto you, if ye will come unto me ye shall have eternal life. Behold, mine arm of mercy is extended towards you, and whosoever will come, him will I receive; and blessed are those who come unto me.
@@ -311,14 +312,14 @@ let thirdNephi_9_13_22 = """
 
 22 Therefore, whoso repenteth and cometh unto me as a little child, him will I receive, for of such is the kingdom of God. Behold, for such I have laid down my life, and have taken it up again; therefore repent, and come unto me ye ends of the earth, and be saved.
 """
-
-let thirdNephi_11_10_11 = """
+    
+    static let thirdNephi_11_10_11 = """
 10 Behold, I am Jesus Christ, whom the prophets testified shall come into the world.
 
 11 And behold, I am the light and the life of the world; and I have drunk out of that bitter cup which the Father hath given me, and have glorified the Father in taking upon me the sins of the world, in the which I have suffered the will of the Father in all things from the beginning.
 """
-
-let thirdNephi_11_1_17 = """
+    
+    static let thirdNephi_11_1_17 = """
 1 And now it came to pass that there were a great multitude gathered together, of the people of Nephi, round about the temple which was in the land Bountiful; and they were marveling and wondering one with another, and were showing one to another the great and marvelous change which had taken place.
 
 2 And they were also conversing about this Jesus Christ, of whom the sign had been given concerning his death.
@@ -353,8 +354,8 @@ let thirdNephi_11_1_17 = """
 
 17 Hosanna! Blessed be the name of the Most High God! And they did fall down at the feet of Jesus, and did worship him.
 """
-
-let thirdNephi_11_18_28 = """
+    
+    static let thirdNephi_11_18_28 = """
 18 And it came to pass that he spake unto Nephi (for Nephi was among the multitude) and he commanded him that he should come forth.
 
 19 And Nephi arose and went forth, and bowed himself before the Lord and did kiss his feet.
@@ -377,8 +378,8 @@ let thirdNephi_11_18_28 = """
 
 28 And according as I have commanded you thus shall ye baptize. And there shall be no disputations among you, as there have hitherto been; neither shall there be disputations among you concerning the points of my doctrine, as there have hitherto been.
 """
-
-let thirdNephi_15_1_9 = """
+    
+    static let thirdNephi_15_1_9 = """
 1 And now it came to pass that when Jesus had ended these sayings he cast his eyes round about on the multitude, and said unto them: Behold, ye have heard the things which I taught before I ascended to my Father; therefore, whoso remembereth these sayings of mine and doeth them, him will I raise up at the last day.
 
 2 And it came to pass that when Jesus had said these words he perceived that there were some among them who marveled, and wondered what he would concerning the law of Moses; for they understood not the saying that old things had passed away, and that all things had become new.
@@ -397,8 +398,8 @@ let thirdNephi_15_1_9 = """
 
 9 Behold, I am the law, and the light. Look unto me, and endure to the end, and ye shall live; for unto him that endureth to the end will I give eternal life.
 """
-
-let thirdNephi_17_1_10 = """
+    
+    static let thirdNephi_17_1_10 = """
 1 Behold, now it came to pass that when Jesus had spoken these words he looked round about again on the multitude, and he said unto them: Behold, my time is at hand.
 
 2 I perceive that ye are weak, that ye cannot understand all my words which I am commanded of the Father to speak unto you at this time.
@@ -419,8 +420,8 @@ let thirdNephi_17_1_10 = """
 
 10 And they did all, both they who had been healed and they who were whole, bow down at his feet, and did worship him; and as many as could come for the multitude did kiss his feet, insomuch that they did bathe his feet with their tears.
 """
-
-let thirdNephi_18_1_10 = """
+    
+    static let thirdNephi_18_1_10 = """
 1 And it came to pass that Jesus commanded his disciples that they should bring forth some bread and wine unto him.
 
 2 And while they were gone for bread and wine, he commanded the multitude that they should sit themselves down upon the earth.
@@ -441,8 +442,8 @@ let thirdNephi_18_1_10 = """
 
 10 And when the disciples had done this, Jesus said unto them: Blessed are ye for this thing which ye have done, for this is fulfilling my commandments, and this doth witness unto the Father that ye are willing to do that which I have commanded you.
 """
-
-let thirdNephi_26_1_6 = """
+    
+    static let thirdNephi_26_1_6 = """
 1 And now it came to pass that when Jesus had told these things he expounded them unto the multitude; and he did expound all things unto them, both great and small.
 
 2 And he saith: These scriptures, which ye had not with you, the Father commanded that I should give unto you; for it was wisdom in him that they should be given unto future generations.
@@ -455,8 +456,8 @@ let thirdNephi_26_1_6 = """
 
 6 And now there cannot be written in this book even a hundredth part of the things which Jesus did truly teach unto the people;
 """
-
-let ether_3_6_16 = """
+    
+    static let ether_3_6_16 = """
 6 And it came to pass that when the brother of Jared had said these words, behold, the Lord stretched forth his hand and touched the stones one by one with his finger. And the veil was taken from off the eyes of the brother of Jared, and he saw the finger of the Lord; and it was as the finger of a man, like unto flesh and blood; and the brother of Jared fell down before the Lord, for he was struck with fear.
 
 7 And the Lord saw that the brother of Jared had fallen to the earth; and the Lord said unto him: Arise, why hast thou fallen?
@@ -479,7 +480,8 @@ let ether_3_6_16 = """
 
 16 Behold, this body, which ye now behold, is the body of my spirit; and man have I created after the body of my spirit; and even as I appear unto thee to be in the spirit will I appear unto my people in the flesh.
 """
-
-let ether_12_6 = """
+    
+    static let ether_12_6 = """
 6 And now, I, Moroni, would speak somewhat concerning these things; I would show unto the world that faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith.
 """
+}

@@ -5,7 +5,8 @@
 //  Created by Brian Homer Jr on 11/25/25.
 //
 
-let dc_19_16_19 = """
+struct DoctrineCovenantsTexts {
+    static let dc_19_16_19 = """
 16 For behold, I, God, have suffered these things for all, that they might not suffer if they would repent;
 
 17 But if they would not repent they must suffer even as I;
@@ -14,16 +15,16 @@ let dc_19_16_19 = """
 
 19 Nevertheless, glory be to the Father, and I partook and finished my preparations unto the children of men.
 """
-
-let dc_76_22_24 = """
+    
+    static let dc_76_22_24 = """
 22 And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!
 
 23 For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father—
 
 24 That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God.
 """
-
-let dC_93_11_17 = """
+    
+    static let dC_93_11_17 = """
 11 And I, John, bear record that I beheld his glory, as the glory of the Only Begotten of the Father, full of grace and truth, even the Spirit of truth, which came and dwelt in the flesh, and dwelt among us.
 
 12 And I, John, saw that he received not of the fulness at the first, but received grace for grace;
@@ -38,8 +39,8 @@ let dC_93_11_17 = """
 
 17 And he received all power, both in heaven and on earth, and the glory of the Father was with him, for he dwelt in him.
 """
-
-let dc_110_2_10 = """
+    
+    static let dc_110_2_10 = """
 2 We saw the Lord standing upon the breastwork of the pulpit, before us; and under his feet was a paved work of pure gold, in color like amber.
 
 3 His eyes were as a flame of fire; the hair of his head was white like the pure snow; his countenance shone above the brightness of the sun; and his voice was as the sound of the rushing of great waters, even the voice of Jehovah, saying:
@@ -58,8 +59,8 @@ let dc_110_2_10 = """
 
 10 And the fame of this house shall spread to foreign lands; and this is the beginning of the blessing which shall be poured out upon the heads of my people. Even so. Amen.
 """
-
-let dc_138_11_24 = """
+    
+    static let dc_138_11_24 = """
 11 As I pondered over these things which are written, the eyes of my understanding were opened, and the Spirit of the Lord rested upon me, and I saw the hosts of the dead, both small and great.
 
 12 And there were gathered together in one place an innumerable company of the spirits of the just, who had been faithful in the testimony of Jesus while they lived in mortality;
@@ -88,3 +89,4 @@ let dc_138_11_24 = """
 
 24 Their countenances shone, and the radiance from the presence of the Lord rested upon them, and they sang praises unto his holy name.
 """
+}

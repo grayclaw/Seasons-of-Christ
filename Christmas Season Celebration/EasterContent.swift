@@ -12,7 +12,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Moses 1:39",
-                textVariable: moses_1_39,
+                textVariable: PearlOfGreatPriceTexts.moses_1_39,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng&id=p39#p39")
             ),
             talk: TalkReference(
@@ -24,7 +24,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "2 Nephi 2:27",
-                textVariable: secondNephi_2_27,
+                textVariable: BookOfMormonTexts.secondNephi_2_27,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng&id=p27#p27")
             ),
             talk: TalkReference(
@@ -36,7 +36,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Alma 34:9–10",
-                textVariable: alma_34_9_10,
+                textVariable: BookOfMormonTexts.alma_34_9_10,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng&id=p9-p10#p9")
             ),
             talk: TalkReference(
@@ -48,7 +48,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Ether 12:6",
-                textVariable: ether_12_6,
+                textVariable: BookOfMormonTexts.ether_12_6,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p6#p6")
             ),
             talk: TalkReference(
@@ -60,7 +60,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Alma 36:17–21",
-                textVariable: alma_36_17_21,
+                textVariable: BookOfMormonTexts.alma_36_17_21,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/36?lang=eng&id=p17-p21#p17")
             ),
             talk: TalkReference(
@@ -72,7 +72,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Acts 10:38",
-                textVariable: acts_10_38,
+                textVariable: NewTestamentTexts.acts_10_38,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng&id=p38#p38")
             ),
             talk: TalkReference(
@@ -84,7 +84,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 13:1–23",
-                textVariable: matt_13_1_23,
+                textVariable: NewTestamentTexts.matt_13_1_23,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng&id=p1-p23#p1")
             ),
             talk: TalkReference(
@@ -96,7 +96,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Mark 5:25–34",
-                textVariable: mark_5_25_34,
+                textVariable: NewTestamentTexts.mark_5_25_34,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/5?lang=eng&id=p25-p34#p25")
             ),
             talk: TalkReference(
@@ -108,7 +108,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 6:35",
-                textVariable: john_6_35,
+                textVariable: NewTestamentTexts.john_6_35,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/6?lang=eng&id=p35#p35")
             ),
             talk: TalkReference(
@@ -120,7 +120,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 10:11",
-                textVariable: john_10_11,
+                textVariable: NewTestamentTexts.john_10_11,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng&id=p11#p11")
             ),
             talk: TalkReference(
@@ -132,7 +132,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 8:12",
-                textVariable: john_8_12,
+                textVariable: NewTestamentTexts.john_8_12,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/8?lang=eng&id=p12#p12")
             ),
             talk: TalkReference(
@@ -144,7 +144,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 14:14",
-                textVariable: matt_14_14,
+                textVariable: NewTestamentTexts.matt_14_14,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/14?lang=eng&id=p14#p14")
             ),
             talk: TalkReference(
@@ -156,7 +156,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 12:12–15",
-                textVariable: john_12_12_15,
+                textVariable: NewTestamentTexts.john_12_12_15,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng&id=p12-p15#p12")
             ),
             talk: TalkReference(
@@ -168,7 +168,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 22:19–20",
-                textVariable: luke_22_19_20,
+                textVariable: NewTestamentTexts.luke_22_19_20,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&id=p19-p20#p19")
             ),
             talk: TalkReference(
@@ -180,7 +180,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 22:39–44",
-                textVariable: luke_22_39_44,
+                textVariable: NewTestamentTexts.luke_22_39_44,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/22?lang=eng&id=p39-p44#p39")
             ),
             talk: TalkReference(
@@ -192,7 +192,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 26:47–50",
-                textVariable: matt_26_47_50,
+                textVariable: NewTestamentTexts.matt_26_47_50,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng&id=p47-p50#p47")
             ),
             talk: TalkReference(
@@ -204,7 +204,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Mark 15:1–15",
-                textVariable: mark_15_1_15,
+                textVariable: NewTestamentTexts.mark_15_1_15,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/15?lang=eng&id=p1-p15#p1")
             ),
             talk: TalkReference(
@@ -216,7 +216,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 23:33–46",
-                textVariable: luke_23_33_46,
+                textVariable: NewTestamentTexts.luke_23_33_46,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng&id=p33-p46#p33")
             ),
             talk: TalkReference(
@@ -228,7 +228,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "1 Peter 4:6",
-                textVariable: firstPeter_4_6,
+                textVariable: NewTestamentTexts.firstPeter_4_6,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/4?lang=eng&id=p6#p6")
             ),
             talk: TalkReference(
@@ -240,7 +240,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 27:50–54",
-                textVariable: matt_27_50_54,
+                textVariable: NewTestamentTexts.matt_27_50_54,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng&id=p50-p54#p50")
             ),
             talk: TalkReference(
@@ -252,7 +252,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "1 Peter 3:18–20; 4:6",
-                textVariable: firstPeter_3_18_20,
+                textVariable: NewTestamentTexts.firstPeter_3_18_20,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/3?lang=eng&id=p18-p20#p18")
             ),
             talk: TalkReference(
@@ -264,7 +264,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Alma 40:23",
-                textVariable: alma_40_23,
+                textVariable: BookOfMormonTexts.alma_40_23,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/40?lang=eng&id=p23#p23")
             ),
             talk: TalkReference(
@@ -276,7 +276,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 28:1–4",
-                textVariable: matt_28_1_4,
+                textVariable: NewTestamentTexts.matt_28_1_4,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/28?lang=eng&id=p1-p4#p1")
             ),
             talk: TalkReference(
@@ -288,7 +288,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 20:11–16",
-                textVariable: john_20_11_16,
+                textVariable: NewTestamentTexts.john_20_11_16,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/20?lang=eng&id=p11-p16#p11")
             ),
             talk: TalkReference(
@@ -300,7 +300,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Luke 24:13–32",
-                textVariable: luke_24_13_32,
+                textVariable: NewTestamentTexts.luke_24_13_32,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/24?lang=eng&id=p13-p32#p13")
             ),
             talk: TalkReference(
@@ -312,7 +312,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 20:19–29",
-                textVariable: john_20_19_29,
+                textVariable: NewTestamentTexts.john_20_19_29,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/20?lang=eng&id=p19-p29#p19")
             ),
             talk: TalkReference(
@@ -324,7 +324,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "John 21:15–17",
-                textVariable: john_21_15_17,
+                textVariable: NewTestamentTexts.john_21_15_17,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/21?lang=eng&id=p15-p17#p15")
             ),
             talk: TalkReference(
@@ -336,7 +336,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Matthew 28:19–20",
-                textVariable: matt_28_19_20,
+                textVariable: NewTestamentTexts.matt_28_19_20,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/28?lang=eng&id=p19-p20#p19")
             ),
             talk: TalkReference(
@@ -348,7 +348,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Acts 1:9–11",
-                textVariable: acts_1_9_11,
+                textVariable: NewTestamentTexts.acts_1_9_11,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng&id=p9-p11#p9")
             ),
             talk: TalkReference(
@@ -360,7 +360,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Doctrine & Covenants 76:22–24",
-                textVariable: dc_76_22_24,
+                textVariable: DoctrineCovenantsTexts.dc_76_22_24,
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng&id=p22-p24#p22")
             ),
             talk: TalkReference(
