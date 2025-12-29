@@ -5,41 +5,8 @@
 //  Created by Brian Homer Jr on 11/25/25.
 //
 struct NewTestamentTexts {
-    static let matt_1 = """
-1 The book of the generation of Jesus Christ, the son of David, the son of Abraham.
-
-2 Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;
-
-3 And Judas begat Phares and Zara of Thamar; and Phares begat Esrom; and Esrom begat Aram;
-
-4 And Aram begat Aminadab; and Aminadab begat Naasson; and Naasson begat Salmon;
-
-5 And Salmon begat Booz of Rachab; and Booz begat Obed of Ruth; and Obed begat Jesse;
-
-6 And Jesse begat David the king; and David the king begat Solomon of her that had been the wife of Urias;
-
-7 And Solomon begat Roboam; and Roboam begat Abia; and Abia begat Asa;
-
-8 And Asa begat Josaphat; and Josaphat begat Joram; and Joram begat Ozias;
-
-9 And Ozias begat Joatham; and Joatham begat Achaz; and Achaz begat Ezekias;
-
-10 And Ezekias begat Manasses; and Manasses begat Amon; and Amon begat Josias;
-
-11 And Josias begat Jechonias and his brethren, about the time they were carried away to Babylon:
-
-12 And after they were brought to Babylon, Jechonias begat Salathiel; and Salathiel begat Zorobabel;
-
-13 And Zorobabel begat Abiud; and Abiud begat Eliakim; and Eliakim begat Azor;
-
-14 And Azor begat Sadoc; and Sadoc begat Achim; and Achim begat Eliud;
-
-15 And Eliud begat Eleazar; and Eleazar begat Matthan; and Matthan begat Jacob;
-
-16 And Jacob begat Joseph the husband of Mary, of whom was born Jesus, who is called Christ.
-
-17 So all the generations from Abraham to David are fourteen generations; and from David until the carrying away into Babylon are fourteen generations; and from the carrying away into Babylon unto Christ are fourteen generations.
-
+    // christmas
+    static let matt_1_18_25 = """
 18 Now the birth of Jesus Christ was on this wise: When as his mother Mary was espoused to Joseph, before they came together, she was found with child of the Holy Ghost.
 
 19 Then Joseph her husband, being a just man, and not willing to make her a publick example, was minded to put her away privily.
@@ -57,6 +24,7 @@ struct NewTestamentTexts {
 25 And knew her not till she had brought forth her firstborn son: and he called his name Jesus.
 """
 
+    // christmas
     static let matt_2 = """
 1 Now when Jesus was born in Bethlehem of Judæa in the days of Herod the king, behold, there came wise men from the east to Jerusalem,
 
@@ -105,6 +73,7 @@ struct NewTestamentTexts {
 23 And he came and dwelt in a city called Nazareth: that it might be fulfilled which was spoken by the prophets, He shall be called a Nazarene.
 """
 
+    // christmas
     static let matt_5_14_16 = """
 14 Ye are the light of the world. A city that is set on an hill cannot be hid.
 
@@ -113,6 +82,7 @@ struct NewTestamentTexts {
 16 Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.
 """
 
+    // easter
     static let matt_13_1_23 = """
 1 The same day went Jesus out of the house, and sat by the sea side.
 
@@ -161,14 +131,17 @@ struct NewTestamentTexts {
 23 But he that received seed into the good ground is he that heareth the word, and understandeth it; which also beareth fruit, and bringeth forth, some an hundredfold, some sixty, some thirty.
 """
 
+    // easter
     static let matt_14_14 = """
 14 And Jesus went forth, and saw a great multitude, and was moved with compassion toward them, and he healed their sick.
 """
 
+    // christmas
     static let matt_25_40 = """
 40 And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.
 """
 
+    // easter
     static let matt_26_47_50 = """
 47 And while he yet spake, lo, Judas, one of the twelve, came, and with him a great multitude with swords and staves, from the chief priests and elders of the people.
 
@@ -179,6 +152,7 @@ struct NewTestamentTexts {
 50 And Jesus said unto him, Friend, wherefore art thou come? Then came they, and laid hands on Jesus, and took him.
 """
 
+    // easter
     static let matt_27_50_54 = """
 50 Jesus, when he had cried again with a loud voice, yielded up the ghost.
 
@@ -191,6 +165,7 @@ struct NewTestamentTexts {
 54 Now when the centurion, and they that were with him, watching Jesus, saw the earthquake, and those things that were done, they feared greatly, saying, Truly this was the Son of God.
 """
 
+    // easter
     static let matt_28_1_4 = """
 1 In the end of the sabbath, as it began to dawn toward the first day of the week, came Mary Magdalene and the other Mary to see the sepulchre.
 
@@ -201,12 +176,14 @@ struct NewTestamentTexts {
 4 And for fear of him the keepers did shake, and became as dead men.
 """
 
+    // easter
     static let matt_28_19_20 = """
 19 Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:
 
 20 Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.
 """
 
+    // easter
     static let mark_5_25_34 = """
 25 And a certain woman, which had an issue of blood twelve years,
 
@@ -229,6 +206,7 @@ struct NewTestamentTexts {
 34 And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.
 """
 
+    // easter
     static let mark_15_1_15 = """
 1 And straightway in the morning the chief priests held a consultation with the elders and scribes and the whole council, and bound Jesus, and carried him away, and delivered him to Pilate.
 
@@ -261,6 +239,7 @@ struct NewTestamentTexts {
 15 And so Pilate, willing to content the people, released Barabbas unto them, and delivered Jesus, when he had scourged him, to be crucified.
 """
 
+    // christmas
     static let luke_1 = """
 1 Forasmuch as many have taken in hand to set forth in order a declaration of those things which are most surely believed among us,
 
@@ -423,6 +402,7 @@ struct NewTestamentTexts {
 80 And the child grew, and waxed strong in spirit, and was in the deserts till the day of his shewing unto Israel.
 """
 
+    // christmas
     static let luke_2 = """
 1 And it came to pass in those days, that there went out a decree from Cæsar Augustus, that all the world should be taxed.
 
@@ -529,12 +509,14 @@ struct NewTestamentTexts {
 52 And Jesus increased in wisdom and stature, and in favour with God and man.
 """
 
+    // easter
     static let luke_22_19_20 = """
 19 And he took bread, and gave thanks, and brake it, and gave unto them, saying, This is my body which is given for you: this do in remembrance of me.
 
 20 Likewise also the cup after supper, saying, This cup is the new testament in my blood, which is shed for you.
 """
 
+    // easter
     static let luke_22_39_44 = """
 39 And he came out, and went, as he was wont, to the mount of Olives; and his disciples also followed him.
 
@@ -549,6 +531,7 @@ struct NewTestamentTexts {
 44 And being in an agony he prayed more earnestly: and his sweat was as it were great drops of blood falling down to the ground.
 """
 
+    // easter
     static let luke_23_33_46 = """
 33 And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, one on the right hand, and the other on the left.
 
@@ -579,6 +562,7 @@ struct NewTestamentTexts {
 46 And when Jesus had cried with a loud voice, he said, Father, into thy hands I commend my spirit: and having said thus, he gave up the ghost.
 """
 
+    // NOT USED but good for easter
     static let luke_24_1_12 = """
 1 Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them.
 
@@ -605,6 +589,7 @@ struct NewTestamentTexts {
 12 Then arose Peter, and ran unto the sepulchre; and stooping down, he beheld the linen clothes laid by themselves, and departed, wondering in himself at that which was come to pass.
 """
 
+    // easter
     static let luke_24_13_32 = """
 13 And, behold, two of them went that same day to a village called Emmaus, which was from Jerusalem about threescore furlongs.
 
@@ -647,6 +632,7 @@ struct NewTestamentTexts {
 32 And they said one to another, Did not our heart burn within us, while he talked with us by the way, and while he opened to us the scriptures?
 """
 
+    // christmas
     static let john_1_1_5 = """
 1 In the beginning was the Word, and the Word was with God, and the Word was God.
 
@@ -659,24 +645,29 @@ struct NewTestamentTexts {
 5 And the light shineth in darkness; and the darkness comprehended it not.
 """
 
+    // christmas
     static let john_3_16_17 = """
 16 For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
 
 17 For God sent not his Son into the world to condemn the world; but that the world through him might be saved.
 """
 
+    // easter
     static let john_6_35 = """
 35 And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.
 """
 
+    // easter
     static let john_8_12 = """
 12 Then spake Jesus again unto them, saying, I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.
 """
 
+    // easter
     static let john_10_11 = """
 11 I am the good shepherd: the good shepherd giveth his life for the sheep.
 """
 
+    // easter
     static let john_12_12_15 = """
 12 On the next day much people that were come to the feast, when they heard that Jesus was coming to Jerusalem,
 
@@ -687,18 +678,30 @@ struct NewTestamentTexts {
 15 Fear not, daughter of Sion: behold, thy King cometh, sitting on an ass’s colt.
 """
 
+    // christmas
     static let john_14_27 = """
 27 Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.
 """
 
+    // NOT USED but good for easter
     static let john_19_30 = """
-(John 19:30 scripture text)
+30 When Jesus therefore had received the vinegar, he said, It is finished: and he bowed his head, and gave up the ghost.
 """
 
+    // NOT USED but good for easter
     static let john_19_38_42 = """
-(John 19:38–42 scripture text)
+38 ¶ And after this Joseph of Arimathæa, being a disciple of Jesus, but secretly for fear of the Jews, besought Pilate that he might take away the body of Jesus: and Pilate gave him leave. He came therefore, and took the body of Jesus.
+
+39 And there came also Nicodemus, which at the first came to Jesus by night, and brought a mixture of myrrh and aloes, about an hundred pound weight.
+
+40 Then took they the body of Jesus, and wound it in linen clothes with the spices, as the manner of the Jews is to bury.
+
+41 Now in the place where he was crucified there was a garden; and in the garden a new sepulchre, wherein was never man yet laid.
+
+42 There laid they Jesus therefore because of the Jews’ preparation day; for the sepulchre was nigh at hand.
 """
 
+    // NOT USED but good for easter
     static let john_20_1_18 = """
 1 The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
 
@@ -737,6 +740,7 @@ struct NewTestamentTexts {
 18 Mary Magdalene came and told the disciples that she had seen the Lord, and that he had spoken these things unto her.
 """
 
+    // easter
     static let john_20_11_16 = """
 11 ¶ But Mary stood without at the sepulchre weeping: and as she wept, she stooped down, and looked into the sepulchre,
 
@@ -751,6 +755,7 @@ struct NewTestamentTexts {
 16 Jesus saith unto her, Mary. She turned herself, and saith unto him, Rabboni; which is to say, Master.
 """
 
+    // easter
     static let john_20_19_29 = """
 19 Then the same day at evening, being the first day of the week, when the doors were shut where the disciples were assembled for fear of the Jews, came Jesus and stood in the midst, and saith unto them, Peace be unto you.
 
@@ -775,6 +780,7 @@ struct NewTestamentTexts {
 29 Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed.
 """
 
+    // NOT USED but good for easter (broken into chunks above)
     static let john_20 = """
 1 The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.
 
@@ -839,6 +845,7 @@ struct NewTestamentTexts {
 31 But these are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name.
 """
 
+    // easter
     static let john_21_15_17 = """
 15 So when they had dined, Jesus saith to Simon Peter, Simon, son of Jonas, lovest thou me more than these? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my lambs.
 
@@ -847,6 +854,7 @@ struct NewTestamentTexts {
 17 He saith unto him the third time, Simon, son of Jonas, lovest thou me? Peter was grieved because he said unto him the third time, Lovest thou me? And he said unto him, Lord, thou knowest all things; thou knowest that I love thee. Jesus saith unto him, Feed my sheep.
 """
 
+    // easter
     static let acts_1_9_11 = """
 9 And when he had spoken these things, while they beheld, he was taken up; and a cloud received him out of their sight.
 
@@ -855,10 +863,12 @@ struct NewTestamentTexts {
 11 Which also said, Ye men of Galilee, why stand ye gazing up into heaven? this same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven.
 """
 
+    // easter
     static let acts_10_38 = """
 38 How God anointed Jesus of Nazareth with the Holy Ghost and with power: who went about doing good, and healing all that were oppressed of the devil; for God was with him.
 """
 
+    // easter
     static let firstPeter_3_18_20 = """
 18 For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit:
 
@@ -867,6 +877,7 @@ struct NewTestamentTexts {
 20 Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water.
 """
 
+    // easter
     static let firstPeter_4_6 = """
 6 For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.
 """

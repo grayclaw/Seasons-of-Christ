@@ -6,28 +6,33 @@
 //
 
 struct PearlOfGreatPriceTexts {
+    // NOT USED but good for either christmas or easter
     static let moses_1_6_7 = """
 6 And I have a work for thee, Moses, my son; and thou art in the similitude of mine Only Begotten; and mine Only Begotten is and shall be the Savior, for he is full of grace and truth; but there is no God beside me, and all things are present with me, for I know them all.
 
 7 And now, behold, this one thing I show unto thee, Moses, my son, for thou art in the world, and now I show it unto thee.
 """
     
+    // easter
     static let moses_1_39 = """
 39 For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man.
 """
     
+    // NOT USED but good for easter
     static let moses_7_55_56 = """
 55 And the Lord said unto Enoch: Look, and he looked and beheld the Son of Man lifted up on the cross, after the manner of men;
 
 56 And he heard a loud voice; and the heavens were veiled; and all the creations of God mourned; and the earth groaned; and the rocks were rent; and the saints arose, and were crowned at the right hand of the Son of Man, with crowns of glory;
 """
     
+    // NOT USED but good for christmas
     static let abr_3_27_28 = """
 27 And the Lord said: Whom shall I send? And one answered like unto the Son of Man: Here am I, send me. And another answered and said: Here am I, send me. And the Lord said: I will send the first.
 
 28 And the second was angry, and kept not his first estate; and, at that day, many followed after him.
 """
     
+    // christmas
     static let js_h_1_14_20 = """
 14 So, in accordance with this, my determination to ask of God, I retired to the woods to make the attempt. It was on the morning of a beautiful, clear day, early in the spring of eighteen hundred and twenty. It was the first time in my life that I had made such an attempt, for amidst all my anxieties I had never as yet made the attempt to pray vocally.
 
@@ -44,6 +49,7 @@ struct PearlOfGreatPriceTexts {
 20 He again forbade me to join with any of them; and many other things did he say unto me, which I cannot write at this time. When I came to myself again, I found myself lying on my back, looking up into heaven. When the light had departed, I had no strength; but soon recovering in some degree, I went home. And as I leaned up to the fireplace, mother inquired what the matter was. I replied, “Never mind, all is well—I am well enough off.” I then said to my mother, “I have learned for myself that Presbyterianism is not true.” It seems as though the adversary was aware, at a very early period of my life, that I was destined to prove a disturber and an annoyer of his kingdom; else why should the powers of darkness combine against me? Why the opposition and persecution that arose against me, almost in my infancy?
 """
     
+    // NOT USED but good for either christmas or easter
     static let js_h_1_16_20 = """
 16 But, exerting all my powers to call upon God to deliver me out of the power of this enemy which had seized upon me, and at the very moment when I was ready to sink into despair and abandon myself to destruction—not to an imaginary ruin, but to the power of some actual being from the unseen world, who had such marvelous power as I had never before felt in any being—just at this moment of great alarm, I saw a pillar of light exactly over my head, above the brightness of the sun, which descended gradually until it fell upon me.
 

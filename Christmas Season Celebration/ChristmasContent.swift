@@ -28,8 +28,8 @@ enum ChristmasContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/num/24?lang=eng&id=p17#p17")
             ),
             talk: TalkReference(
-                title: "The Light That Shineth in Darkness — Elder Kearon",
-                link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2022/10/14kearon")
+                title: "Christ: The Light That Shineth in Darkness — Sister Eubank",
+                link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2019/04/42eubank?lang=eng")
             ),
         ),
         // 3
@@ -52,8 +52,8 @@ enum ChristmasContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/18?lang=eng&id=p15#p15")
             ),
             talk: TalkReference(
-                title: "The Light of the Perfect Leader — President Monson",
-                link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2005/10/the-light-of-the-perfect-leader")
+                title: "The Hope of God’s Light — Elder Uchtdorf",
+                link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-hope-of-gods-light?lang=eng")
             ),
         ),
         // 5
@@ -64,8 +64,8 @@ enum ChristmasContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng&id=p1-p2#p1")
             ),
             talk: TalkReference(
-                title: "We Talk of Christ — Elder Christofferson",
-                link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2020/10/13christofferson")
+                title: "And We Talk of Christ — Elder Stevenson",
+                link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/2025/04/31stevenson?lang=eng")
             ),
         ),
         // 6
@@ -112,7 +112,7 @@ enum ChristmasContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/14?lang=eng&id=p27#p27")
             ),
             talk: TalkReference(
-                title: "Glad Tidings of Love and Joy",
+                title: "Glad Tidings of Love and Joy - Elder Kearon",
                 link: URL(string: "https://www.churchofjesuschrist.org/study/liahona/2025/01/04-glad-tidings-of-love-and-joy")
             ),
         ),
@@ -125,7 +125,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "Mary, The Mother of Jesus — Bible Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-03-0100-mary-is-visited-by-angel-gabriel")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-10-0027-mary-the-mother-of-jesus?lang=eng")
             ),
         ),
         // 11
@@ -149,7 +149,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "Shepherds Learn of the Birth of Christ — Bible Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-12-0102-shepherds-learn-of-the-birth-of-christ")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-10-0005-shepherds-learn-of-the-birth-of-christ?lang=eng")
             ),
         ),
         // 13
@@ -161,7 +161,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "Samuel and the Star — Book of Mormon Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2019-11-1100-samuel-and-the-star")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2024-01-0730-samuel-prophecies-the-signs-of-christs-birth-and-death?lang=eng")
             ),
         ),
         // 14
@@ -173,7 +173,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "Signs of Christ’s Birth — Book of Mormon Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2019-11-1200-signs-of-christs-birth")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2024-01-0750-nephi-prays-and-signs-of-christs-birth-appear?lang=eng")
             ),
         ),
         // 15
@@ -192,12 +192,12 @@ enum ChristmasContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "1 Nephi 10:4",
-                textVariable: BookOfMormonTexts.firstNephi_10_4,
-                link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/10?lang=eng&id=p4#p4")
+                textVariable: BookOfMormonTexts.firstNephi_10_4_10,
+                link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/10?lang=eng&id=p4-p10#p4")
             ),
             talk: TalkReference(
                 title: "Wise Men Still Seek Him — Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-12-0101-wise-men-still-seek-him")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-12-0019-wise-men-still-seek-him?lang=eng")
             ),
         ),
         // 17
@@ -209,7 +209,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "The Character of Christ — Elder Bednar",
-                link: URL(string: "https://speeches.byu.edu/talks/david-a-bednar/character-christ/")
+                link: URL(string: "https://www.byui.edu/speeches/religious-symposium/david-a-bednar/the-character-of-christ")
             ),
         ),
         // 18
@@ -245,7 +245,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "Because of Him — Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2014-04-1030-because-of-him")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2014-04-1420-because-of-him?lang=eng")
             ),
         ),
         // 21
@@ -268,7 +268,7 @@ enum ChristmasContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng&id=p1-p5#p1")
             ),
             talk: TalkReference(
-                title: "Glad Tidings of Great Joy — Ensign",
+                title: "Glad Tidings of Great Joy — Eric Huntsman",
                 link: URL(string: "https://www.churchofjesuschrist.org/study/ensign/2010/12/glad-tidings-of-great-joy")
             ),
         ),
@@ -281,7 +281,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "The Nativity — Bible Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-12-0100-the-nativity")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2012-11-2500-the-nativity?lang=eng")
             ),
         ),
         // 24
@@ -305,7 +305,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "He Is Risen — Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2019-04-0100-he-is-risen")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-10-0025-he-is-risen?lang=eng")
             ),
         ),
         // 26
@@ -317,7 +317,7 @@ enum ChristmasContent {
             ),
             talk: TalkReference(
                 title: "Peace in Christ — Music Video",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/music/video/2018-01-0001-peace-in-christ")
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/17714_017?lang=eng")
             ),
         ),
         // 27
@@ -352,8 +352,8 @@ enum ChristmasContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng&id=p16-p17#p16")
             ),
             talk: TalkReference(
-                title: "The Living Christ — President Gordon B. Hinckley",
-                link: URL(string: "https://www.churchofjesuschrist.org/study/ensign/2000/01/the-living-christ-the-testimony-of-the-apostles")
+                title: "The Living Christ — Elder Joseph Anderson",
+                link: URL(string: "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-living-christ?lang=eng")
             ),
         ),
         // 30
@@ -364,8 +364,8 @@ enum ChristmasContent {
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/9?lang=eng&id=p6#p6")
             ),
             talk: TalkReference(
-                title: "The Birth of Jesus Christ — Bible Video (most common)",
-                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2011-12-0001-the-birth-of-jesus-christ")
+                title: "The Birth of Jesus Christ — Children's Bible Video",
+                link: URL(string: "https://www.churchofjesuschrist.org/media/video/2016-05-0006-the-birth-of-jesus?lang=eng")
             ),
         )
     ]

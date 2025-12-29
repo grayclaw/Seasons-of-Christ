@@ -204,7 +204,7 @@ enum EasterContent {
         DailyContent(
             scripture: ScriptureReference(
                 reference: "Mark 15:1–15",
-                textVariable: NewTestamentTexts.mark_15_1_15,
+                textVariable: NewTestamentTexts.mark_15_1_15, // duplicate????
                 link: URL(string: "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/15?lang=eng&id=p1-p15#p1")
             ),
             talk: TalkReference(

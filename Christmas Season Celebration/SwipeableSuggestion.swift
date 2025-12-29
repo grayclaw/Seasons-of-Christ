@@ -174,6 +174,7 @@ struct SwipeableTextView: View {
         }
         .onAppear {
             loadCompletedSuggestions()
+            setDailySuggestion()
         }
     }
     
@@ -189,6 +190,23 @@ struct SwipeableTextView: View {
     
     private var recentCompletions: [CompletedSuggestion] {
         completedSuggestions.sorted { $0.completedDate > $1.completedDate }.prefix(5).map { $0 }
+    }
+    
+    // Set the daily suggestion based on current date
+    private func setDailySuggestion() {
+        guard !suggestions.isEmpty else { return }
+        
+        let calendar = Calendar.current
+        let today = calendar.startOfDay(for: Date())
+        
+        // Create a seed from the current date (days since reference date)
+        let daysSinceReference = calendar.dateComponents([.day], from: Date(timeIntervalSinceReferenceDate: 0), to: today).day ?? 0
+        
+        // Use the seed to generate a consistent random index for today
+        var generator = SeededRandomNumberGenerator(seed: UInt64(daysSinceReference))
+        let randomIndex = Int.random(in: 0..<suggestions.count, using: &generator)
+        
+        currentIndex = randomIndex
     }
     
     private func moveToNext() {
@@ -239,6 +257,21 @@ struct SwipeableTextView: View {
         if let encoded = try? JSONEncoder().encode(completedSuggestions) {
             completedSuggestionsData = encoded
         }
+    }
+}
+
+// Seeded random number generator for consistent daily randomization
+struct SeededRandomNumberGenerator: RandomNumberGenerator {
+    private var state: UInt64
+    
+    init(seed: UInt64) {
+        state = seed
+    }
+    
+    mutating func next() -> UInt64 {
+        // Linear congruential generator
+        state = state &* 6364136223846793005 &+ 1442695040888963407
+        return state
     }
 }
 

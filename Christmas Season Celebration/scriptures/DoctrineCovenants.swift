@@ -6,6 +6,7 @@
 //
 
 struct DoctrineCovenantsTexts {
+    // NOT USED but good for easter
     static let dc_19_16_19 = """
 16 For behold, I, God, have suffered these things for all, that they might not suffer if they would repent;
 
@@ -15,7 +16,8 @@ struct DoctrineCovenantsTexts {
 
 19 Nevertheless, glory be to the Father, and I partook and finished my preparations unto the children of men.
 """
-    
+   
+    // easter
     static let dc_76_22_24 = """
 22 And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives!
 
@@ -24,6 +26,7 @@ struct DoctrineCovenantsTexts {
 24 That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God.
 """
     
+    // christmas
     static let dC_93_11_17 = """
 11 And I, John, bear record that I beheld his glory, as the glory of the Only Begotten of the Father, full of grace and truth, even the Spirit of truth, which came and dwelt in the flesh, and dwelt among us.
 
@@ -40,6 +43,7 @@ struct DoctrineCovenantsTexts {
 17 And he received all power, both in heaven and on earth, and the glory of the Father was with him, for he dwelt in him.
 """
     
+    // NOT USED but good for either christmas or easter
     static let dc_110_2_10 = """
 2 We saw the Lord standing upon the breastwork of the pulpit, before us; and under his feet was a paved work of pure gold, in color like amber.
 
@@ -60,6 +64,7 @@ struct DoctrineCovenantsTexts {
 10 And the fame of this house shall spread to foreign lands; and this is the beginning of the blessing which shall be poured out upon the heads of my people. Even so. Amen.
 """
     
+    // NOT USED but good for either christmas or easter
     static let dc_138_11_24 = """
 11 As I pondered over these things which are written, the eyes of my understanding were opened, and the Spirit of the Lord rested upon me, and I saw the hosts of the dead, both small and great.
 
